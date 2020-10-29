@@ -1,5 +1,10 @@
 import React from 'react'
 import CardItem from './CardItem';
+import image9 from '../images/img-9.jpg';
+import image2 from '../images/img-2.jpg';
+import image3 from '../images/img-3.jpg';
+import image4 from '../images/img-4.jpg';
+import image8 from '../images/img-8.jpg';
 import './Cards.css';
 
 function Cards() {
@@ -10,13 +15,13 @@ function Cards() {
              <div className =  "cards__wrapper">
                  <ul className = "cards__items">
                    <CardItem 
-                    src = "images/img-9.jpg"
+                    src = {image9}
                     text = "Explore the hidden waterfall deep inside the Amazon Jungle"
                     label = "Adventure"
                     path = "/services"
                    />  
                    <CardItem 
-                    src = "images/img-2.jpg"
+                    src = {image2}
                     text = "The amazing island of Bali in a private cruise"
                     label = "Luxury"
                     path = "/services"
@@ -24,19 +29,19 @@ function Cards() {
                  </ul>
                  <ul className = "cards__items">
                    <CardItem 
-                    src = "images/img-3.jpg"
+                    src = {image3}
                     text = "Sail in the beautiful atlantic ocean and experience spectacular waters"
                     label = "Mystery"
                     path = "/services"
                    />  
                    <CardItem 
-                    src = "images/img-4.jpg"
+                    src = {image4}
                     text = "Experience Football on top of Himalyan Mountains"
                     label = "Adventure"
                     path = "/services"
                    /> 
                    <CardItem 
-                    src = "images/img-8.jpg"
+                    src = {image8}
                     text = "Ride through the Sahara Deserts on a camel tour"
                     label = "Adrenaline"
                     path = "/services"
